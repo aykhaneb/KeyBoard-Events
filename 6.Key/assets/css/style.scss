@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all{
+    border: 2px solid black;
+    width: 70%;
+    height: 700px;
+    margin: 0 auto;
+    position: relative;
+     .area{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    } 
+}
+
+.right{
+    right: 0;
+}
+.left{
+    transform: rotateY(180deg);
+    left: 0;
+}
